@@ -1,0 +1,52 @@
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.bild1 {
+  width: 200%;
+  height: 300%;
+}
+.pgb {
+  display: flex;
+  padding: 10px;
+}
+.grön {
+  background-color: darkgreen;
+}
+.pbb {
+  background-color: cyan;
+}
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.l {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+
+  justify-content: center;
+}
+.ll {
+  background-color: maroon;
+  padding: 2%;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 33%;
+  height: 24%;
+}
+body {
+  background-color: maroon;
+}
